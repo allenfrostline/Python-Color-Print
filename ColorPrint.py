@@ -7,7 +7,7 @@ except ImportError:  # Python 3
     import builtins as __builtin__
 
 
-def print(s, color='default'):
+def print(s='', color='default'):
     s = str(s)
 
     BLUE = '\u001b[38;5;12m'

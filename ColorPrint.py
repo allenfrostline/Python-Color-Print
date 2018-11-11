@@ -8,6 +8,8 @@ except ImportError:  # Python 3
 
 
 def print(s, color='default'):
+    s = str(s)
+
     BLUE = '\u001b[38;5;12m'
     CYAN = '\u001b[38;5;51m'
     GRAY = '\u001b[38;5;240m'
